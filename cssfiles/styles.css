@@ -1,0 +1,70 @@
+
+
+.body {
+    font-family: 'YourFont1', sans-serif;
+    background-color: white;
+}
+
+.navbar {
+    background-color: white;
+}
+
+.navbar-brand {
+    font-family: 'YourFont2', sans-serif;
+    color: blue;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar-toggler-icon {
+    background-color: blue;
+}
+
+.navbar-nav .nav-link {
+    color: gray;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: blue;
+}
+
+.container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.font-1 {
+    font-family: 'YourFont2', sans-serif;
+    color: blue;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+p {
+    color: gray;
+    font-size: 18px;
+}
+
+.img-fluid.pizza-image {
+    border-radius: 10px;
+    margin-bottom: 20px;
+    width: 384px;
+    height: 200px; 
+    object-fit: cover; 
+}
+
+footer {
+    background-color: rgba(255, 255, 255, 0.8); 
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

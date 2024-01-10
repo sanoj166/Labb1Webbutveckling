@@ -1,0 +1,68 @@
+
+
+body {
+    font-family: 'YourFont1', sans-serif;
+}
+
+.navbar {
+    background-color: #ffc107; 
+}
+
+.navbar-brand {
+    font-family: 'YourFont2', cursive;
+    font-size: 24px;
+}
+
+.menu-category {
+    font-family: 'Caveat', cursive;
+    font-size: 28px;
+    margin-top: 20px;
+}
+
+.menu-item {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.menu-item:hover {
+    background-color: #f8f9fa; 
+}
+
+.dish-name {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.ingredients {
+    color: #555;
+    margin-top: 5px;
+}
+
+.price {
+    font-weight: bold;
+    margin-top: 5px;
+    color: #e44d26; 
+}
+
+#cart-container {
+    margin-top: 30px;
+}
+
+#cart-list {
+    list-style: none;
+    padding: 0;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.remove-from-cart {
+    cursor: pointer;
+    color: #b92f0c; 
+}
